@@ -1,2 +1,18 @@
 /* GENERAL */
 
+body{
+    margin: 0 20px;
+    
+}
+
+
+
+/* ARTICLES */
+
+.article1-contenu{
+    display: flex;
+}
+
+.carte-europe{
+    width: 50vw;
+}
