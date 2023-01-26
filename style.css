@@ -10,7 +10,12 @@ h1, h2, h3, p, li, a{
 }
 
 h1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-bottom: 50px;
 }
 
 a{
