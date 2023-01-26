@@ -1,20 +1,51 @@
 /* GENERAL */
 
 body{
-    margin: 0 20px;
+    margin: 0 300px;
 
 }
 
+h1, h2, h3, p, li, a{
+    font-family: 'Poppins';
+}
 
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+}
+
+/*INTRO*/
+
+header{
+    margin: 50px 0;
+}
+
+.date{
+    text-align: end;
+    margin: 30px 0;
+}
 
 /* ARTICLES */
+
+article{
+    margin: 100px 0;
+}
 
 .article-contenu{
     display: flex;
 }
 
-.carte-europe{
-    width: 50vw;
+.carte-europe, .graph-pays-au-cine{
+    width: 200vw;
 }
 
 .histogramme-budget{
