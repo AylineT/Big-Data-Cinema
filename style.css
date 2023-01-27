@@ -18,6 +18,10 @@ h2{
     margin-bottom: 50px;
 }
 
+h3{
+    margin: 30px 0;
+}
+
 a{
     text-decoration: underline;
     color: black;
@@ -56,10 +60,6 @@ article{
 /* .histogramme-budget{
     justify-content: right;
 } */
-
-.graph-deux-text{
-    margin-top: 270px;
-}
 
 
 /* partie genre */
@@ -123,3 +123,4 @@ article{
     display: flex;
     flex-direction: row;
 }
+
