@@ -44,6 +44,12 @@ header{
 }
 
 /* ARTICLES */
+.author{
+    text-align: right;
+    margin-bottom: 10px;
+    color: darkgray;
+}
+
 
 article{
     margin: 100px 0;
