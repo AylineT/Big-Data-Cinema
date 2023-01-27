@@ -86,6 +86,7 @@ article{
 
 /* partie genre */
 
+
 #G2018{
     overflow: hidden;
     height: 0;
@@ -125,14 +126,14 @@ article{
     overflow: hidden;
     height: 0;
     transition: height 1.5s;
-    /* margin-top: 150px; */
+    margin-top: 150px;
 }
+
 #G2021:target{
     height: auto;
 }
 .tri-date{
     display: flex;
-    /* margin-left: 20vw; */
     justify-content: space-evenly;
 }
 .genre-width{
@@ -140,6 +141,7 @@ article{
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .chart-date{
