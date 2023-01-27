@@ -67,10 +67,6 @@ article{
     justify-content: right;
 } */
 
-.graph-deux-text{
-    margin-top: 270px;
-}
-
 
 /* partie genre */
 
@@ -133,3 +129,4 @@ article{
     display: flex;
     flex-direction: row;
 }
+
