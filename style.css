@@ -53,8 +53,73 @@ article{
     width: 200vw;
 }
 
-.histogramme-budget{
+/* .histogramme-budget{
     justify-content: right;
-    width: 45vw;
+} */
+
+.graph-deux-text{
+    margin-top: 270px;
 }
 
+
+/* partie genre */
+
+#G2018{
+    overflow: hidden;
+    height: 0;
+    transition: height 1.5s;
+    margin-top: 150px;
+    position: relative;
+
+}
+#G2018:target{
+    height: auto;
+}
+#G2019{
+    overflow: hidden;
+    height: 0;
+    transition: height 1.5s;
+    margin-top: 150px;
+    position: relative;
+
+}
+#G2019:target{
+    height: auto;
+    position: relative;
+
+}
+#G2020{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    transition: height 1.5s;
+    margin-top: 150px;
+}
+#G2020:target{
+    height: auto;
+}
+#G2021{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    transition: height 1.5s;
+    /* margin-top: 150px; */
+}
+#G2021:target{
+    height: auto;
+}
+.tri-date{
+    display: flex;
+    /* margin-left: 20vw; */
+    justify-content: space-evenly;
+}
+.genre-width{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-date{
+    display: flex;
+    flex-direction: row;
+}
