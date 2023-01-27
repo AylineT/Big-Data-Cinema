@@ -43,12 +43,28 @@ header{
     color: darkgray;
 }
 
+svg{
+    width: 20px;
+    fill: #04bb96;
+}
+
+.partage:hover svg{
+    transform: translateX(15px);
+    transition: all .3s ease-out;
+}
+
+.partage{
+    display: flex;
+    align-items: center;
+}
+
 /* ARTICLES */
 .author{
     text-align: right;
     margin-bottom: 10px;
     color: darkgray;
 }
+
 
 
 article{
